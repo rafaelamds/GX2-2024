@@ -1,0 +1,18 @@
+.yui3-skin-sam .calendar-portlet-mini-calendar .yui3-calendar-weekday {
+ color: #d6001c; 
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+    color: var(--btn-primary-color, #fff);
+    border-color: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.yui3-calendar-weekdayrow {
+    color: red;
+}

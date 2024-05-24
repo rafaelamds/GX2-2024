@@ -1,0 +1,46 @@
+.footer-shiseido {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav_bar_redes {
+    margin-bottom: var(--spacer-5, 3rem);
+}
+
+.nav_bar_redes ul {
+    padding: var(--spacer-0, 0);
+    margin: var(--spacer-0, 0);
+    text-align: center;
+}
+
+.nav_bar_redes ul li {
+    padding: 0.3rem 0.18rem;
+    display: inline-block;
+    position: relative;
+}
+
+.nav_bar_redes ul li a {
+    font-size: 1.125rem;
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin: var(--spacer-0, 0);
+}
+
+.nav_bar_redes ul li a .fa {
+    padding: var(--spacer-3, 1rem);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 3.25rem;
+    text-align: center;
+    background: black;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.nav_bar_redes ul li a .fa:hover {
+    background-color: #d6001c;
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
